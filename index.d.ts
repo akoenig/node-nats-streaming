@@ -35,7 +35,9 @@ export interface StanOptions {
 	discoverPrefix?: string,
     maxPubAcksInflight?: number,
     stanEncoding?: string,
-	nc?: nats.Client
+	nc?: nats.Client,
+    pingInterval?: number,
+    maxPingOut?: number
 }
 
 
